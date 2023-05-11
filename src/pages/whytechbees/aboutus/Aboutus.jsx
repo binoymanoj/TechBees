@@ -3,7 +3,16 @@ import "./aboutus.css";
 import { LinkContainer } from 'react-router-bootstrap';
 import Lottie from "lottie-react";
 import abtusanimation from "./abtusanimation.json";
-import intelligentretail from "./intelligentretail.json"
+import intelligentretail from "./intelligentretail.json";
+import { Image } from 'react-bootstrap';
+import bussinessagilityicon from "./bussinessagilityicon.svg";
+import professionalteamicon from "./professionalteamicon.svg";
+import unifiedexperienceicon from "./unifiedexperienceicon.svg";
+import intelligentcomponenticon from "./intelligentcomponenticon.svg";
+import storesicon from "./storesicon.svg";
+import ordericon from "./ordericon.svg";
+import integrationsicon from "./integrationsicon.svg";
+import oneplatformicon from "./oneplatformicon.svg";
 
 const Aboutus = () => {
   return (
@@ -26,22 +35,22 @@ const Aboutus = () => {
 
       <div className="cardsec">
         <div className="bussinessagility bpui">
-          <img src="/src/pages/whytechbees/aboutus/bussiness-agility-icon.svg" alt="bussiness-agility" className='bpui-icon' />
+          <Image src={bussinessagilityicon} alt="bussiness-agility" className='bpui-icon' />
           <h3>Business Agility</h3>
           <p>We have a culture of proactively adapting and continuously evolving. For us, achieving business agility means an astute business sense and ability to respond to the customer needs quickly and continuously.</p>
         </div>
         <div className="professionalteam bpui">
-          <img src="/src/pages/whytechbees/aboutus/professional-team-icon.svg" alt="professional-team" className='bpui-icon' />
+          <Image src={professionalteamicon} alt="professional-team" className='bpui-icon' />
           <h3>Professional Team</h3>
           <p>We are dedicated group of experienced &amp; committed professionals who share your passion in making the right decision for your business. Our retail tech components are built with our customer needs in mind and with continual feedback.</p>
         </div>
         <div className="unifiedexperience bpui">
-          <img src="/src/pages/whytechbees/aboutus/unified-experience-icon.svg" alt="unified-experience-icon" className='bpui-icon' />
+          <Image src={unifiedexperienceicon} alt="unified-experience" className='bpui-icon' />
           <h3>Unified Experience</h3>
           <p>We believe in creative a holistic experience. We recognize that our ability to enable brands and businesses through advisory and technology will play a vital role in helping them become a smart digital-first business.</p>
         </div>
         <div className="intelligentcomponent bpui">
-          <img src="/src/pages/whytechbees/aboutus/intelligent-component-icon.svg" alt="intelligent-component-icon" className='bpui-icon' />
+          <Image src={intelligentcomponenticon} alt="intelligent-component" className='bpui-icon' />
           <h3>Intelligent Components</h3>
           <p>Our retail tech components are intelligent. You can manage, aggregate, derive insights, optimally utilize your idle resources or derive more out of your rolling stock, collate options &amp; make decisions in real-time.</p>
         </div>
@@ -49,19 +58,19 @@ const Aboutus = () => {
 
       <div className="differentiatesec">
         <div className="stores soip">
-          <img src="/src/pages/whytechbees/aboutus/stores-icon.svg" alt="stores" className='soip-icon' />
+          <Image src={storesicon} alt="stores" className='soip-icon' />
           <p>1400 stores using our platform to manage their internal operations</p>
         </div>
         <div className="orders soip">
-          <img src="/src/pages/whytechbees/aboutus/order-icon.svg" alt="order" className='soip-icon' />
+          <Image src={ordericon} alt="order" className='soip-icon' />
           <p>Cumulative 8000+ orders on daily basis on the platform and growing</p>
         </div>
         <div className="integrations soip">
-          <img src="/src/pages/whytechbees/aboutus/integrations-icon.svg" alt="integrations" className='soip-icon' />
+          <Image src={integrationsicon} alt="integrations" className='soip-icon' />
           <p>50+ third party integrations across domains</p>
         </div>
         <div className="platform soip">
-          <img src="/src/pages/whytechbees/aboutus/one-platform-icon.svg" alt="one-platform" className='soip-icon' />
+          <Image src={oneplatformicon} alt="one-platform" className='soip-icon' />
           <p>One Platform - Many use cases, different industries</p>
         </div>
       </div>

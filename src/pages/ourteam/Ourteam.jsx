@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 import business_team from "./business_team.json";
 import { LinkContainer } from 'react-router-bootstrap';
 import Image from 'react-bootstrap/Image';
+import binoyprofile from "./binoyprofile.jpg";
 
 const Ourteam = () => {
     return (
@@ -26,47 +27,47 @@ const Ourteam = () => {
                 <h2 className='meetot'>Meet Our <span className='bluecolor'>Team</span></h2>
                 <div className="profiles">
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="card-subtitle">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
-                        <Image src='src/pages/ourteam/binoy_profile.jpg' roundedCircle></Image>
+                        <Image src={binoyprofile} roundedCircle></Image>
                         <div className="name">Binoy Manoj</div>
                         <div className="role">Developer</div>
                     </div>

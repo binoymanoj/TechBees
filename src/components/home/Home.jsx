@@ -8,7 +8,11 @@ import Lottie from "lottie-react";
 import business_woman from "/public/business_woman.json";
 import buildingapps from "/public/buildingapps.json";
 import { Avatar } from '@mui/material';
-import home_hero from "../../../public/home_hero.png"
+import home_hero from "../../../public/home_hero.png";
+import tick from "../../../public/tick.svg";
+import consumergoodsimg from "../../../public/consumergoodsimg.svg";
+import healthcareimg from "../../../public/healthcareimg.svg";
+import hypermarketimg from "../../../public/hypermarketimg.svg";
 
 const Home = () => {
   return (
@@ -54,21 +58,21 @@ const Home = () => {
 
           <div className='robusticonsec'>
             <div className='healthcare'>
-              <img src="/public/undraw_medicine_b-1-ol.svg" alt="healthcare" className='illustration' />
+              <img src={healthcareimg} alt="healthcare" className='illustration' />
               <h4>Pharma and Healthcare</h4>
               <h5 className='font-weight-light fwl'>
                 Pharma Retail Chain Stores, Healthcare Providers with Dispensing Pharmacies, Pharmacy Distribution, D2C Health Tech companies, Pharma Manufacturers with downstream distribution.
               </h5>
             </div>
             <div className='consumer'>
-              <img src="/public/undraw_shopping_bags_tdby.svg" alt="consumer goods" className='illustration cons' />
+              <img src={consumergoodsimg} alt="consumer goods" className='illustration cons' />
               <h4>Consumer Goods</h4>
               <h5 className='font-weight-light fwl'>
                 Fast Moving Consumer goods distributors, Apparel and Fashion Retailer chain stores, consumer products and electronics chain stores, specialty goods, B2B distributors with dealer operations & assisted sales.
               </h5>
             </div>
             <div className='hypermarkets'>
-              <img src="/public/undraw_online_shopping_re_k1sv.svg" alt="hypermarkets" className='illustration' />
+              <img src={hypermarketimg} alt="hypermarkets" className='illustration' />
               <h4>Hypermarkets</h4>
               <h5 className='font-weight-light fwl'>
                 Supermarket chain stores, Grocery and FMCG retailers and distributors, Large hypermarkets selling to B2C and B2B customers, Grocery chain stores.
@@ -83,11 +87,11 @@ const Home = () => {
 
             <p>Harmonized retail components for holistic omnichannel transformation and hyper local proximity delivery. Anything Retail with a customization factor of 20% required as no one size fits all. Unlock your Effortless Digital first strategy through our Cloud based E-commerce Solutions.</p>
             <div className='pointsec'>
-              <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Product Information Management (PIMS) - Manage Products || Better Discoverability || Intelligent Search || Multi channel Publishing.</p>
-              <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Store Connect:- Hyperlocal fulfilment || Store operations || Last Mile.</p>
-              <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Multichannel Order Management - Advanced Inventory & Order Routing Engine || Pre Built Integrations || Reconciliation.</p>
-              <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />WH/Store Inventory management- Data Model || Aggregator || Intelligence.</p>
-              <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Delivery / Payment Partner Management - Decision Tree || Intelligent routing.</p>
+              <p><img src={tick} alt="" className='tickicon' />Product Information Management (PIMS) - Manage Products || Better Discoverability || Intelligent Search || Multi channel Publishing.</p>
+              <p><img src={tick} alt="" className='tickicon' />Store Connect:- Hyperlocal fulfilment || Store operations || Last Mile.</p>
+              <p><img src={tick} alt="" className='tickicon' />Multichannel Order Management - Advanced Inventory & Order Routing Engine || Pre Built Integrations || Reconciliation.</p>
+              <p><img src={tick} alt="" className='tickicon' />WH/Store Inventory management- Data Model || Aggregator || Intelligence.</p>
+              <p><img src={tick} alt="" className='tickicon' />Delivery / Payment Partner Management - Decision Tree || Intelligent routing.</p>
             </div>
             <LinkContainer to="/contact-us"><button className='getstartedbtn'>Get Started</button></LinkContainer>
           </div>

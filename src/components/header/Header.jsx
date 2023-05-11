@@ -17,7 +17,7 @@ import TimelineIcon from '@mui/icons-material/Timeline';
 import WorkIcon from '@mui/icons-material/Work';
 import Sticky from 'react-stickynode';
 import { Link } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
   return (

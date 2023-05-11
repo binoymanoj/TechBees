@@ -5,6 +5,11 @@ import Lottie from "lottie-react";
 import hypermarketanimation1 from "./hypermarketanimation1.json";
 import projectanimation from "./projectanimation.json";
 import connectinganimation from "./connectinganimation.json";
+import { Image } from 'react-bootstrap';
+import customerdelighticon from "./customerdelighticon.svg";
+import analyticsicon from "./analyticsicon.svg";
+import customericon3 from "./customericon3.svg";
+
 
 const Hypermarket = () => {
     return (
@@ -29,17 +34,17 @@ const Hypermarket = () => {
                 </div>
                 <div className="cicsection">
                     <div className="customerdelight cic">
-                        <img src="/src/pages/solutions/hypermarket/customer_delight_icon.svg" alt="customer-delight" classname="cic-icon" />
+                        <Image src={customerdelighticon} alt="customer-delight" classname="cic-icon" />
                         <h3>Cutomer Delight</h3>
                         <p>Provide on-demand, omnichannel experience and hyperlocal fulfilment to your consumers with our Intelligent Hypermarket solution</p>
                     </div>
                     <div className="insightsanalytics cic">
-                        <img src="/src/pages/solutions/hypermarket/analytics_icon.svg" alt="customer-delight" classname="cic-icon" />
+                        <Image src={analyticsicon} alt="analytics" classname="cic-icon" />
                         <h3>Insights & analytics</h3>
                         <p>Make use of intuitive dashboards which captures data of orders/sales, touch points/consumers across all channels. Get actionable insights and reports.</p>
                     </div>
                     <div className="customerengagement cic">
-                        <img src="/src/pages/solutions/hypermarket/customer_icon3.svg" alt="customer-delight" classname="cic-icon" />
+                        <Image src={customericon3} alt="customer engagement" classname="cic-icon" />
                         <h3>Customer Engagement</h3>
                         <p>Engage consumers with relevant, personalised &amp; standardised product data across all the right channels with intelligent insights/attribute capturing</p>
                     </div>
@@ -50,11 +55,11 @@ const Hypermarket = () => {
                 <div className="inteltxtsec">
                     <h2 className="intelligenttxt">Intelligent <span className="bluecolor">PIMS and OMS</span></h2>
                     <div className='pointsec'>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Manage your product catalogues /SKUs centrally with a capability of multi-channel publishing. Product information is stored in a standardised and containerised manner for effective display of information to the front-end channels.</p>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Plan your master creation as per the categories/variants/tags, Include Attributes. Manage Syndication of Images as per the need for each product als variant wise different image for same.</p>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Create Product with multiple variants. Create Product sets. Create Price/Discount master. Manage Product Inventory. Enrichment of product attributes.</p>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Increase discoverability if your products through intelligent tag dictionary, elastic search capability ultimately leading to higher conversions.</p>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Intelligent/Intuitive one-stop order management where all the orders irrespective of which channel can be shown in a centralised manner. Process orders through various state machines.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Manage your product catalogues /SKUs centrally with a capability of multi-channel publishing. Product information is stored in a standardised and containerised manner for effective display of information to the front-end channels.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Plan your master creation as per the categories/variants/tags, Include Attributes. Manage Syndication of Images as per the need for each product als variant wise different image for same.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Create Product with multiple variants. Create Product sets. Create Price/Discount master. Manage Product Inventory. Enrichment of product attributes.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Increase discoverability if your products through intelligent tag dictionary, elastic search capability ultimately leading to higher conversions.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Intelligent/Intuitive one-stop order management where all the orders irrespective of which channel can be shown in a centralised manner. Process orders through various state machines.</p>
                     </div>
                     <LinkContainer to="/contact-us"><button className='schedulebtn'>Get Started</button></LinkContainer>
                 </div>
@@ -68,10 +73,10 @@ const Hypermarket = () => {
                 <div className="connectingtxtsec">
                     <h2 className='connectinghead'>Connecting the <span className="bluecolor">Dots</span></h2>
                     <div className="pointsec">
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Provide on-demand, omnichannel and hyperlocal fulfilment to your consumers.</p>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Integrate inventory, stores, warehouses, and orders (ERP), with consumer and delivery touchpoints with an end-to-end e-commerce platform.</p>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Convert stores to virtual fulfilment centres or dark stores through Store Connect App.</p>
-                        <p><img src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Enable faster fulfilment and returns with intelligent and automated order management system with dedicated product picking/delivery apps for delivery/store executives.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Provide on-demand, omnichannel and hyperlocal fulfilment to your consumers.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Integrate inventory, stores, warehouses, and orders (ERP), with consumer and delivery touchpoints with an end-to-end e-commerce platform.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Convert stores to virtual fulfilment centres or dark stores through Store Connect App.</p>
+                        <p><Image src="/src/pages/solutions/hypermarket/tick.svg" alt="" className='tickicon' />Enable faster fulfilment and returns with intelligent and automated order management system with dedicated product picking/delivery apps for delivery/store executives.</p>
                     </div>
                     <LinkContainer to="/contact-us"><button className='schedulebtn'>Get Started</button></LinkContainer>
                 </div>
@@ -87,7 +92,7 @@ const Hypermarket = () => {
                 <h2 className='text-center'>Hypermarket Retail Component Factory</h2>
                 <div className="compiconcards">
                     <div className="card compcard">
-                        <img src="/src/pages/solutions/hypermarket/" alt="" className='compicons' />
+                        <Image src="/src/pages/solutions/hypermarket/" alt="" className='compicons' />
                         <h6>Product Information Management System (PIMS)</h6>
                         <p>PIMS is envisaged as a centralized platform to manage all product data and information required to enable, automate, and enforce best practices in data, content management and flow across multiple sources, applications and enterprises like aggregators & drop-shipment or franchise partners.</p>
                     </div>
