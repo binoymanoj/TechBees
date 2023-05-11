@@ -1,0 +1,29 @@
+
+img{
+    width: 180px;
+}
+
+header{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #4f634f;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+
+.about{
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+    border: 2px solid #4f634f;
+    border-radius: 60px;
+    margin-left: 7px;
+}
+
+.about:hover{
+    background-color: #4f634f;
+    border: 2px solid  #4f634f;
+    transition: all 0.3s ease 0s;
+}
+

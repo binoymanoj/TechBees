@@ -1,0 +1,194 @@
+/* 
+.home{
+    max-width: 1300px;
+    margin: 0 auto;
+} */
+
+.heroimg{
+    width: 60%;
+    max-height: calc(100vh - 64px);
+}
+
+.herocont{
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.herotext{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.herosub{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bluecolor{
+    color: rgb(7, 141, 238);
+}
+
+.getstarted{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.herobutton{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.pch{
+    padding-top: 40px;
+}
+
+.rsp{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.cons{
+    margin-top: 8px;
+}
+
+
+.fwl{
+    padding-top: 10px;
+    font-size: 17px;
+    width: 300px;
+}
+
+.illustration{
+    width: 280px;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.robusticonsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-bottom: 40px;
+}
+
+.saascontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.saashead{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.saastxt{
+    max-width: 600px;
+}
+
+.getstartedbtn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.businesswoman{
+    max-width: 500px;
+    min-width: 350px;
+    z-index: -1;
+}
+
+.choosecomponentsec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+.ecomhead{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.componentcontent{
+    width: 750px;
+}   
+
+.buildingapps{
+    max-width: 500px;
+    z-index: -1;
+}
+
+.testimonialcontent{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.testimonialcard{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.cardtitle{
+    font-weight: bold;    
+}
+
+.card-subtitle{
+    font-style: oblique;
+}
+
+/* .grid{
+    
+} */
+
+@media (max-width: 500px) {
+    .heroimg {
+        width: 500px;
+    }
+  }
+
+  /* @media (max-width: 500px) {
+    . {
+      
+    }
+  }
+
+  @media (max-width: 1024px) {
+    . {
+      
+    }
+  } */

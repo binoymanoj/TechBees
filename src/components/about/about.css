@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footertop{
+    color: white;
+    background-color: #1d371d;
+}
+
+.footerbot{
+    background-color: #949f8c;
+}
+

@@ -1,0 +1,113 @@
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+    align-items: center;
+}
+
+.abttext{
+    min-width: 100px;
+    max-width: 550px;
+}
+
+.bluecolor{
+    color: rgb(7, 141, 238);
+}
+
+.techcomp{
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.abtusanimation{
+    width: 600px;
+    min-width: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+.contactusbtn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cardsec{
+    width: 100%;
+    padding-top: 40px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bpui{
+    max-width: 260px;
+}
+
+.bpui-icon{
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.differentiatesec{
+    width: 100%;
+    padding-top: 70px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.soip{
+    max-width: 260px;
+}
+
+.soip-icon{
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.missionsec{
+    padding-top: 50px;
+    padding-bottom: 30px    ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+    align-items: center;
+}
+
+.intelligenttxt{
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.intelligentanimation{
+    width: 600px;
+    min-width: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+.missiontxt{
+    min-width: 100px;
+    max-width: 550px;
+}
+
+
+/* .content{
+    width: 800px;
+
+} */

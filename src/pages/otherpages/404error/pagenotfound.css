@@ -1,0 +1,17 @@
+
+.pagenotfound{
+    width: 700px;
+}
+
+.animation404{
+    display: flex;
+    justify-content: center;
+}
+
+/* .error404{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+} */
