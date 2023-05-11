@@ -8,6 +8,7 @@ import Lottie from "lottie-react";
 import business_woman from "/public/business_woman.json";
 import buildingapps from "/public/buildingapps.json";
 import { Avatar } from '@mui/material';
+import home_hero from "../../../public/home_hero.png"
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
               <Button variant="success" href='/contact-us' className='getstarted'>Get Started <OpenInNewIcon fontSize='small' /></Button>{' '}
             </div>
           </div>
-          <Image className="MuiBox-root heroimg " alt="home hero" src="/public/home_hero.png" />
+          <Image className="MuiBox-root heroimg " alt="home hero" src={home_hero} />
 
         </div>
       </div>
