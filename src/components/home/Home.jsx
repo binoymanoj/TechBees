@@ -1,6 +1,5 @@
 import React from 'react';
 import "./home.css";
-import "../../app.css";
 import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
