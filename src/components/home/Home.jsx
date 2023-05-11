@@ -1,5 +1,6 @@
 import React from 'react';
 import "./home.css";
+import { Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import Button from 'react-bootstrap/Button';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
@@ -28,7 +29,7 @@ const Home = () => {
               <Button variant="success" href='/contact-us' className='getstarted'>Get Started <OpenInNewIcon fontSize='small' /></Button>{' '}
             </div>
           </div>
-          <img className="MuiBox-root heroimg " alt="home hero" src="/public/home_hero.png"></img>
+          <Image className="MuiBox-root heroimg " alt="home hero" src="/public/home_hero.png" />
 
         </div>
       </div>
