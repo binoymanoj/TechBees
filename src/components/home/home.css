@@ -4,6 +4,10 @@
     margin: 0 auto;
 } */
 
+.card {
+    padding: 2em;
+  }
+
 .heroimg{
     width: 60%;
     max-height: calc(100vh - 64px);

@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.card {
+    padding: 2em;
+  }
+
 .teamcontent{
     min-width: 100px;
     max-width: 550px;
