@@ -18,6 +18,8 @@ import WorkIcon from '@mui/icons-material/Work';
 import Sticky from 'react-stickynode';
 import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Image } from 'react-bootstrap';
+import techbeeslogofull from "../../../public/techbeeslogofull.png";
 
 const Header = () => {
   return (
@@ -28,7 +30,7 @@ const Header = () => {
 
           <Navbar id="home" bg="" expand="lg" className=''>
             <Container>
-              <Navbar.Brand href="/"><img src="/TechBees Logo Full- no BG.png"></img></Navbar.Brand>
+              <Navbar.Brand href="/"><Image src={techbeeslogofull}></Image></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">

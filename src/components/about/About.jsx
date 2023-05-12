@@ -3,6 +3,9 @@ import "./about.css";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdb-react-ui-kit";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { LinkContainer } from 'react-router-bootstrap';
+import { Image } from 'react-bootstrap';
+import techbeeslogofull from "../../../public/techbeeslogofull.png";
+
 
 const About = () => {
   return (
@@ -41,7 +44,7 @@ const About = () => {
             <MDBRow className='mt-3'>
               <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4'>
-                  <img src="/public/TechBees Logo Full- no BG.png" alt="logo" />
+                  <Image src={techbeeslogofull} alt="logo" />
                 </h6>
                 <p className='objective'>
                   To build long-term relationships with our clients and become their trusted technology partner. <br />
