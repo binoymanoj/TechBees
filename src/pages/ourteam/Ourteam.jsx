@@ -28,7 +28,7 @@ const Ourteam = () => {
                 <div className="profiles">
                     <div className='card profilecard'>
                         <Image src={binoyprofile} roundedCircle></Image>
-                        <div className="name">Binoy Manoj</div>
+                        <div className="name">Binoy Maoj</div>
                         <div className="role">Developer</div>
                     </div>
                     <div className='card profilecard'>
